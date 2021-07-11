@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8"/>
+        <meta
+        http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+		<meta name="description" content="Get latest tech and startups Insights">
+		<meta name="keywords" content="Software, IT, entrepreneur, startup, business, community, engineering">
+		<meta name="author" content="Mridul verma">
+		<meta name="title" content="Mridul Verma">
+		<meta property="og:url" content="https://mridulverma.me" />
+		<meta property="og:description" content="Get latest tech and startups Insights" />
+		<meta property="og:title" content="Mridul Verma" />
+		<meta property="twitter:site" content="@mkvmridul" />
+		<meta property="twitter:creater" content="@mkvmridul" />
+		<meta property="twitter:card" content="Mridul Verma" />
+		<link rel="shortcut icon" href="assets/coding.jpg" type="image/x-icon">
+        <title>
+            Mridul Verma
+        </title>
+        <style>
+            @media screen and (max-width: 550px) {
+                body {
+                    overflow-y: auto !important;
+                }
+
+                .landing-page {
+                    width: 90vw;
+                    margin: 20px auto auto;
+                }
+
+                #mridul-image {
+                    display: none;
+                }
+
+                .wrapper {
+                    display: block !important;
+                }
+            }
+
+            .landing-page {
+                width: 80vw;
+                margin: 100px auto auto;
+                height: 100vh;
+                max-height: 100vh;
+            }
+
+            body {
+                overflow-y: hidden;
+                padding: 0;
+            }
+
+            html {
+                padding: 0;
+            }
+
+            #background {
+                position: fixed;
+                z-index: -1;
+                filter: opacity(0.3) grayscale(1);
+                top: 0;
+                right: -30vw;
+                transform: skewX(13deg);
+            }
+
+            .social-media img {
+                padding: 10px;
+                cursor: pointer;
+                filter: drop-shadow(2px 4px 6px black) grayscale(1);
+            }
+
+            .social-media img:hover {
+                filter: grayscale(0);
+            }
+
+            .blog-button {
+                border: 0.1em solid black;
+                background: none;
+                padding: 10px 20px;
+                font-size: 2rem;
+                font-weight: bold;
+                cursor: pointer;
+            }
+
+            .blog-button:hover {
+                background-color: black;
+                color: white;
+                border: 0.1em solid white;
+            }
+
+            .footer {
+                position: fixed;
+                bottom: 0;
+                width: 100vw;
+                left: 0;
+                background: #eee;
+                padding: 10px;
+            }
+
+            #mridul-image:hover {
+                filter: grayscale(0) !important;
+            }
+        </style>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-5KPB5HFJ4J"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'G-5KPB5HFJ4J');
+		</script>
+
+
+    </head>
+
+    <body>
+        <div class="landing-page">
+            <div class="wrapper" style="display: flex; justify-content: space-between;">
+                <img src="./assets/coding.png" alt="coding screen image" id="background"/>
+                <div class="content">
+                    <h1 style="font-size: 4rem;">
+                        <span style="font-weight: 500;">Hi! I am</span>
+                        <br/>
+                        <b>Mridul Verma</b>
+                    </h1>
+                    <p style="font-size: 2rem; color: #999;">
+                        I am a
+                        <span class="element"></span>
+                    </p>
+                    <br/>
+                    <br/>
+                    <button class="blog-button">More...</button>
+                </div>
+                <div class="art">
+                    <br/>
+                    <br/>
+                    <img id="mridul-image" alt="mridul verma image" src="./assets/mridul.png" style="filter: grayscale(0.9);"/>
+                    <br/>
+                    <br/>
+                    <div class="social-media" style="display: flex; justify-content: center;">
+                        <a href="https://www.linkedin.com/in/mkvmridul/" target="_blank">
+                            <img src="./assets/linkedin.png" alt="linkedin"/>
+                        </a>
+                        <a href="https://github.com/mkvmridul" target="_blank">
+                            <img src="./assets/github.png" alt="github.png"/>
+                        </a>
+                        <a href="mailto:mridul.verma965@gmail.com" target="_blank">
+                            <img src="./assets/email.png" alt="email"/>
+                        </a>
+                        <a href="https://twitter.com/mkvmridul" target="_blank">
+                            <img src="./assets/twitter.png" alt="twitter.png"/>
+                        </a>
+                    </div>
+                    <div class="footer">
+                        <center>
+                            Made with love ❤️ by
+                            <a href="https://mridulverma.me">mridulverma.me</a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            var typed = new Typed(".element", {
+                strings: [
+                    "Software Engineer By profession", "Technocrat by choice", "Explorer by heart", "Learner by Logic",
+                ],
+                typeSpeed: 40,
+                smartBackspace: true,
+                loop: true,
+                loopCount: Infinity,
+                startDelay: 1000
+            });
+        </script>
+    </body>
+
+</html>
